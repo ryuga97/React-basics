@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
-  console.log("最初！");
   // 動的に変わる部分はuseStateで定義　[変数, 更新関数] = useState(初期値);
   const [num, setNum] = useState(0);
   const [faceShowFlag, setFaceShowFlag] = useState(false);
